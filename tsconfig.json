@@ -19,7 +19,12 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types" // Add this if you have custom types in a 'types' folder
+    ],
+    "types": ["debounce", "webxr"] // Ensure these types are included
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

@@ -27,10 +27,12 @@
     "three-globe": "^2.32.0"
   },
   "devDependencies": {
+    "@types/debounce": "^1.2.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-lottie": "^1.2.10",
+    "@types/webxr": "^0.5.20",
     "eslint": "^8",
     "eslint-config-next": "14.2.13",
     "postcss": "^8",
