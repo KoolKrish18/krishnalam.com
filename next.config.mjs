@@ -8,9 +8,10 @@ export default withSentryConfig(withSentryConfig(withSentryConfig(nextConfig, {
 
 org: "krish-nalam",
 project: "javascript-nextjs",
+authToken: process.env.SENTRY_AUTH_TOKEN,
 
 // Only print logs for uploading source maps in CI
-silent: !process.env.CI,
+silent: false,
 
 // For all available options, see:
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
